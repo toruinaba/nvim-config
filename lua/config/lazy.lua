@@ -16,9 +16,17 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   spec = {
+    { import = "plugins.vimdoc-ja" },
     { import = "plugins.nvim-tree" },
     { import = "plugins.lualine" },
     { import = "plugins.toggleterm" },
     { import = "plugins.indent-blankline" },
-  },
+    { import = "plugins.barbar" },
+    { import = "plugins.gitsigns" },
+    { import = "plugins.noice" },
+    { import = "plugins.nvim-autopairs" },
+    { import = "plugins.nvim-treesitter" },
+    { import = "plugins.telescope" },
+    { import = "plugins.which-key" },
+  }
 })
