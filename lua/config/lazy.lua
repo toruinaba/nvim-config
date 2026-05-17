@@ -28,5 +28,7 @@ require("lazy").setup({
     { import = "plugins.nvim-treesitter" },
     { import = "plugins.telescope" },
     { import = "plugins.which-key" },
+    { import = "plugins.diffview" },
   }
 })
+

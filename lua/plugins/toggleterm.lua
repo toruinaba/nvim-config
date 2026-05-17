@@ -3,8 +3,8 @@ return {
   version = "*",
   opts =  {
     size = 10,
-    open_mapping = [[<c-\>]],
+    open_mapping = [[<c-t>]],
   },
-  keys = { [[<c-\>]], ":ToggleTerm<CR>"},
+  keys = { [[<c-t>]], ":ToggleTerm<CR>"},
   cmd = "ToggleTerm",
 }
